@@ -1,0 +1,33 @@
+/* TODO: universal selector type  selects all things on page sets to one format*/
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* TODO: element selector type selects all items within the element*/
+body {
+  background-color: lemonchiffon;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* TODO: class selector type selects elements with a specific class attribute*/
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* TODO: Id selector type specify certain items to further refine them*/
+#contact-section {
+  background-color: #f0ead6;
+}
